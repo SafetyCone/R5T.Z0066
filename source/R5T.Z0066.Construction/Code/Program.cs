@@ -7,7 +7,8 @@ namespace R5T.Z0066.Construction
     {
         static void Main()
         {
-            Console.WriteLine("Hello World!");
+            //Z0066.PathologicalFileNames.Instance._Raw._FileNames.
+            //Instances.Paths._Raw.
         }
     }
 }
