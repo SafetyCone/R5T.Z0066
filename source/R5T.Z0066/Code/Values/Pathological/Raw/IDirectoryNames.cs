@@ -1,6 +1,7 @@
 using System;
 
 using R5T.T0131;
+using R5T.T0143;
 
 
 namespace R5T.Z0066.Pathological.Raw
@@ -9,7 +10,10 @@ namespace R5T.Z0066.Pathological.Raw
     public partial interface IDirectoryNames : IValuesMarker
     {
 #pragma warning disable IDE1006 // Naming Styles
+
+        [Ignore]
         private Z0066.Raw.IDirectoryNames _DirectoryNames => Z0066.Raw.DirectoryNames.Instance;
+
 #pragma warning restore IDE1006 // Naming Styles
 
 

@@ -1,6 +1,7 @@
 using System;
 
 using R5T.T0131;
+using R5T.T0143;
 
 
 namespace R5T.Z0066.Pathological
@@ -9,7 +10,10 @@ namespace R5T.Z0066.Pathological
     public partial interface IFileNames : IValuesMarker
     {
 #pragma warning disable IDE1006 // Naming Styles
+
+        [Ignore]
         public Raw.IFileNames _Raw => Raw.FileNames.Instance;
+
 #pragma warning restore IDE1006 // Naming Styles
 
 
