@@ -1,6 +1,9 @@
 # R5T.Z0066
 Examples values for all purposes (strictly-framework typed). (netstandard2.1)
 
+# DEPRECATED
+See F10Y.Z0011.Z001.
+
 
 ## Allowed dependencies
 
